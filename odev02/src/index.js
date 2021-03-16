@@ -40,13 +40,13 @@ for (var i = 0; i < arrayLength; i++) {
 var html = "";
 
 arr.forEach((i) => {
-    html += `<img id=${newArray[i].id} class=${newArray[i].class} src=${newArray[i].src} onclick="findCat(${newArray[i].flag}, ${i})";>`;
-    document.getElementById("resim").innerHTML = html;
+        html += `<img id=${newArray[i].id} class=${newArray[i].class} src=${newArray[i].src} onclick="findCat(${newArray[i].flag}, ${i});">`;
+        document.getElementById("resim").innerHTML = html;
 });
 
 var hak = 2;
 
-function findCat(flag, i) {
+const findCat = (flag, i) => {
     if (flag) {
         id = newArray[i].id;
         document.getElementById(`${id}`).src = "./img/cat.jpg";
@@ -62,9 +62,7 @@ function findCat(flag, i) {
         document.getElementById(`${id}`).src = "./img/dog.jpg";
         while (hak > 0) {
             if(newArray[i].src != "./img/cat.jpg"){
-                console.log(hak);
                 hak--;
-                console.log(hak);
                 break;
             }
         }
@@ -82,3 +80,5 @@ function findCat(flag, i) {
         }
     }
 }
+
+window.findCat = findCat;
