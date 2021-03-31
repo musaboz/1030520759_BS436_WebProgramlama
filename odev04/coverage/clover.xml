@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1617218924296" clover="3.2.0">
+  <project timestamp="1617218924297" name="All files">
+    <metrics statements="24" coveredstatements="21" conditionals="12" coveredconditionals="12" methods="8" coveredmethods="6" elements="44" coveredelements="39" complexity="0" loc="24" ncloc="24" packages="1" files="2" classes="2"/>
+    <file name="Game.jsx" path="C:\Users\boz_m\OneDrive\Masaüstü\odev04\src\Game.jsx">
+      <metrics statements="22" coveredstatements="21" conditionals="12" coveredconditionals="12" methods="7" coveredmethods="6"/>
+      <line num="5" count="11" type="stmt"/>
+      <line num="6" count="11" type="stmt"/>
+      <line num="15" count="11" type="stmt"/>
+      <line num="16" count="10" type="stmt"/>
+      <line num="18" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="9" type="stmt"/>
+      <line num="22" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="24" count="3" type="stmt"/>
+      <line num="26" count="6" type="stmt"/>
+      <line num="27" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="31" count="9" type="stmt"/>
+      <line num="37" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="38" count="4" type="stmt"/>
+      <line num="46" count="11" type="stmt"/>
+      <line num="47" count="0" type="stmt"/>
+      <line num="57" count="20" type="stmt"/>
+      <line num="58" count="20" type="stmt"/>
+      <line num="61" count="4" type="stmt"/>
+      <line num="62" count="3" type="stmt"/>
+      <line num="63" count="3" type="stmt"/>
+    </file>
+    <file name="index.jsx" path="C:\Users\boz_m\OneDrive\Masaüstü\odev04\src\index.jsx">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
